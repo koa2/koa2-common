@@ -1,0 +1,25 @@
+{
+  "name": "simplereader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start app.js -i 0 --name 'simplereader'",
+    "dev": "hs dist -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "koa-compress": "^2.0.0",
+    "koa-conditional-get": "^2.0.0",
+    "koa-etag": "^3.0.0",
+    "koa-favicon": "^2.0.0",
+    "load_koa_middlewares": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2",
+    "koa": "^2.0.0",
+  }
+}
