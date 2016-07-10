@@ -16,10 +16,10 @@
     "koa-conditional-get": "^2.0.0",
     "koa-etag": "^3.0.0",
     "koa-favicon": "^2.0.0",
-    "load_koa_middlewares": "^1.0.1"
+    "load_koa_middlewares": "^1.0.2"
   },
   "devDependencies": {
     "nodemon": "^1.9.2",
-    "koa": "^2.0.0",
+    "koa": "^2.0.0"
   }
 }
