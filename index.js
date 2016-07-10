@@ -3,11 +3,11 @@
 const fs = require('fs')
 const path = require('path')
 const load_koa_middlewares = require('load_koa_middlewares')
-
-const config = path.join(__dirname, './conf.js')
-
+const default_config = path.join(__dirname, './conf.js')
 module.exports = (path) => {
-    console.log(config)
+  let config = default_config
+  
+  console.log(config)
   
   if (path && fs.existsSync(path)) {
     config = path
