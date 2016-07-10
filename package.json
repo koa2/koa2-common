@@ -1,15 +1,25 @@
 {
-  "name": "simplereader",
+  "name": "koa2-common",
   "version": "1.0.0",
-  "description": "",
+  "description": "koa2 common middlewares",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start app.js -i 0 --name 'simplereader'",
     "dev": "hs dist -o",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "koa",
+    "koa2",
+    "compress",
+    "etag",
+    "favicon",
+    "load_koa_middlewares",
+    "middlewares",
+    "common"
+  ],
+  "author": "i5ting",
+  "license": "MIT",
   "dependencies": {
     "debug": "^2.2.0",
     "koa-compress": "^2.0.0",
